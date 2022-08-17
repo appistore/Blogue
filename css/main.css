@@ -1,0 +1,230 @@
+/* main.css */
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+	font-family:Verdana;
+}
+
+
+.file{
+	background-color:#f1f1f1;
+	margin-top:-30px;
+	padding: 10px;
+}
+
+.panel {
+	overflow:auto;	
+	margin: 0 20px;
+}
+
+
+.main {
+	float: left;
+	width: 100%;
+	background-color:#f1f1f1;
+	padding: 0 20px;
+	margin:  20px 0;
+	overflow: hidden;
+	border-radius: 10px;
+	border: 1px solid #000;
+}
+
+/*
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+
+
+
+
+.entete ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.entete li {
+  float: left;
+}
+
+.entete li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.entete li a:hover {
+  background-color: #111;
+}
+
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 50%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+*/
+
+
+
+
+
+/* -----------------------------------------Menu entete ----------------------------------------- */
+
+
+#menu_entete{
+	color:#fff;	
+	font-size:1.1em;
+	background-color:#4384ba; 
+}
+
+#menu_entete ul li a{
+	color:#fff;	
+	background-color:#4384ba;
+	margin-left:0px;
+	border:0px solid #000;
+} 
+#menu_entete ul li a:hover{
+	color:#ff4500;	
+	background:#FFF;	
+}
+
+#menu_entete ul li.active{	
+	color:#ff4500;	
+	background:#FFF;
+}
+
+
+
+#menu_entete ul li a.active{	
+	color:#ff4500;	
+	background:#FFF;
+}
+
+
+    
+/* ---------------------------------------//Menu entete------------------------------------------- */
+
+
+
+
+
+
+.bienvenue{
+	background-color:#f1f1f1;text-align:right;padding:7px;font-size:15px;color:red;
+}
+
+.cat{
+	float:right;
+	color:#4384ba;
+	font-size:1.2em;
+	font-weight:blod;
+}
+
+
+
+
+
+#pied {
+	background-color:#4384ba;
+	width:100%;
+	height:30%;
+	color:#fff;
+}
+#pied p{
+	text-align:center;
+}
+
+
+/* AJOUT CSS
+------------------------------------------------------------------------*/
+/* Bouton commander ici */
+.btn_submit {
+text-decoration: none;
+/* float:right; */
+padding: 5px;
+font-family: Verdana, 'Trebuchet MS', Arial;
+font-size: 1em;
+color: #FFFFFF;
+background-color: #008000;
+border: 4px solid #FFFFFF;
+box-shadow: 3px 3px 8px #444444;
+-webkit-box-shadow: 3px 3px 8px #444444;
+-moz-box-shadow: 3px 3px 8px #444444;
+}
+
+.btn_submit:hover {
+padding: 5px;
+background-color: #0000FF;
+box-shadow: 1px 1px 4px #777777;
+-webkit-box-shadow: 1px 1px 4px #777777;
+-moz-box-shadow: 1px 1px 4px #777777;
+}
+
+
+
+/* Bouton commander ici */
+.btn_submit_retour {
+text-decoration: none;
+/* float:right; */
+padding: 5px;
+font-family: arial;
+font-size: 1em;
+color: #FFFFFF;
+background-color: #0000FF;
+border: 4px solid #FFFFFF;
+box-shadow: 3px 3px 8px #444444;
+-webkit-box-shadow: 3px 3px 8px #444444;
+-moz-box-shadow: 3px 3px 8px #444444;
+}
+
+.btn_submit_retour:hover {
+padding: 5px;
+background-color: #17175b;
+box-shadow: 1px 1px 4px #777777;
+-webkit-box-shadow: 1px 1px 4px #777777;
+-moz-box-shadow: 1px 1px 4px #777777;
+}
+
+
+.space {
+	clear: both;
+	display: block;
+	font-size: 0;
+	height: 10px;
+	line-height: 0;
+	width:100%;
+}	
+
